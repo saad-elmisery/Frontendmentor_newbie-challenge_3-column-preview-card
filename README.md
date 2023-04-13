@@ -12,7 +12,7 @@ This challenge from FrontendMentor.io required me to create a responsive three-c
 
 ## Screenshots
 
-![Desktop View](/screenshots/desktop.png)
+![Desktop View](/design/desktop-design.jpg)
 ![Mobile View](/screenshots/mobile.png)
 
 ## Getting Started
@@ -23,4 +23,4 @@ To view this project, you can clone the repository using the following Git comma
 
 Once you have cloned the repository, navigate to the project folder using the following command:
 
-cd Frontendmentor_newbie-challenge_3-column-preview-card
+```cd Frontendmentor_newbie-challenge_3-column-preview-card```
