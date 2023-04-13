@@ -13,7 +13,7 @@ This challenge from FrontendMentor.io required me to create a responsive three-c
 ## Screenshots
 
 ![Desktop View](/design/desktop-design.jpg)
-![Mobile View](/screenshots/mobile.png)
+![Mobile View](/design/mobile-design.jpg)
 
 ## Getting Started
 
