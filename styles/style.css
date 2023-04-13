@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  border: 0;
+}
+
+.container {
+  margin: 100px 280px 20px;
+  height: 420px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: none;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.section {
+  padding: 40px 10px 0 45px;
+  justify-self: center;
+}
+
+.car__img {
+  width: 50px;
+  height: 30px;
+}
+
+.h3-heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin-top: 20px;
+}
+
+.description__data {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 1.7;
+  padding-right: 30px;
+}
+
+.learnmore__button {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 20px;
+  padding: 10px 23px;
+  margin-top: 70px;
+}
+
+.button1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.learnmore__button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px;
+    margin: 25px 0;
+  }
+  .section {
+    padding: 70px 50px;
+  }
+  .sedan {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  .suv {
+    order: -1;
+  }
+  .luxury {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  .learnmore__button {
+    position: relative;
+    margin-top: 20px;
+  }
+  footer {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
